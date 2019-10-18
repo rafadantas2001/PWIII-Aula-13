@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BuscaCepComponent } from './busca-cep/busca-cep.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BuscaCepComponent
   ],
   imports: [
     BrowserModule,
